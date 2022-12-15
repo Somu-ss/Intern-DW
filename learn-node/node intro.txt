@@ -1,0 +1,18 @@
+
+Nodejs is a run time engine.
+Nodejs is not a programming language
+
+javascript engine in the web browser are
+firefox - spidermonkey
+ 
+
+
+
+
+browserjs        node js  
+ DOM            no DOM
+ window         window
+ interactive       server side
+ No Filesystem      Filesystem
+ES6 Mdules          commonjs
+ 

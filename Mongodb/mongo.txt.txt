@@ -1,0 +1,96 @@
+MongoDB
+MongoDB is NoSql Database
+MongoDB is Schema less
+Aggregation framework
+Flexible Query Model
+Native Aggregation
+Schema less model
+General Purpose Database
+MapReduce
+Change the default port
+Default MongoDB PORT 27017
+    mongosh --port <PORT>
+Documentation like
+{
+    student:{
+        name: "jayavarthini",
+        location: [
+            city:"Erode",
+            pin:393001
+        ],
+        name: "saikumar",
+        location: [
+            city:"Erode",
+            pin:393002
+        ]
+    },   
+}
+
+Working of MongoDB
+MongoDB Data stored in BSON format
+Written in C++
+NoSql does not use tables with rows and column
+
+
+
+
+Relational DB	MongoDB
+Database	Database
+Table	Collection
+Row	Document
+Column	Field
+TableJoin	EmbeddedDocuments
+
+Advantages
+Schemaless
+No complex joins
+Impressive speed
+No primarykey setup
+Power querying analytics
+Commands
+
+Database
+database
+console.clear()
+use <database>
+show dbs
+
+Insert
+db.collectionname.insertOne({})
+db.collectionname.insertMany([{},{}])
+show collections
+db.getcollectionNames()
+show profiles
+show users
+
+Drop
+db.dropDatabase()
+db.collectionname.drop()
+
+Find
+db.collection.find()
+db.collection.find({})
+db.collectionname.countDocuments()
+
+Operators
+$or
+$in
+$lt
+$lte
+$gt
+$gte
+$eq
+$nin
+
+Update
+db.collectionname.UpdateOne({},{$set:{}})
+db.collectionname.UpdateMany()
+db.collectionname.replaceOne()
+
+
+Delete
+db.colllectionname.deleteOne({})
+db.collectionname.deleteMany()
+
+
+
