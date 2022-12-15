@@ -13,7 +13,7 @@ Default MongoDB PORT 27017
 Documentation like
 {
     student:{
-        name: "jayavarthini",
+        name: "somu",
         location: [
             city:"Erode",
             pin:393001
